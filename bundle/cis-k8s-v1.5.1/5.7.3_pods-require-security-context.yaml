@@ -34,7 +34,7 @@ metadata:
         constraintHash: '15277b142d0976eae0bf2fce4eb8bdb49210df870954efbee80d7ff83fdfe369'
       }"
 spec:
-  enforcementAction: dryrun
+  enforcementAction: deny
   match:
     excludedNamespaces:
       - kube-system
